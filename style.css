@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo1{
+    width: 80px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  a{
+      display: block;
+      text-decoration: none;
+  }
+
+  .footer{
+      height: 40px;
+      text-align: right;
+      padding: 7px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .info{
+      padding-right: 8px;
+  }
+
+  .footer-links a{
+        display: inline;
+        text-decoration: none;
+        padding: 15px;
+  }
+
+.copyright-area {
+  background: #0e0e0e;
+  padding: 25px 0;
+}
+.avtorskiye-teksty p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.avtorskiye-teksty p a{
+  color: #e8a612;
+}
+.karkas-navigatsiya li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.karkas-navigatsiya li:hover a{
+  color: #ff5e14;
+}
+.karkas-navigatsiya li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+@media screen and (max-width: 600px) {
+    content {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+  footer{
+      position: absolute;
+      margin-top: 85vh;
+      width: 210vh;
+  }
